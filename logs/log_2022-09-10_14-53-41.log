@@ -1,0 +1,78 @@
+
+-----
+Test: API_testing_study_project/tests/test_google_maps_api.py::Test_create_place::test_created_place (call)
+Time: 2022-09-10 14:53:41.875663
+Request method: POST
+Request URL: https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+
+Response code: 200
+Response text: {"status":"OK","place_id":"a1bbf669b9db329ce79aae4bb61ba1a5","scope":"APP","reference":"3724fc6dfcf5e38fb616be4ce0b190173724fc6dfcf5e38fb616be4ce0b19017","id":"3724fc6dfcf5e38fb616be4ce0b19017"}
+Response headers: {'Date': 'Sat, 10 Sep 2022 09:53:43 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '194', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: API_testing_study_project/tests/test_google_maps_api.py::Test_create_place::test_created_place (call)
+Time: 2022-09-10 14:53:42.453811
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a1bbf669b9db329ce79aae4bb61ba1a5
+
+Response code: 200
+Response text: {"location":{"latitude":"2222222","longitude":"3333333"},"accuracy":"50","name":"Akmal IUNUSOV","phone_number":"123456","address":"Happy street, 19a building","types":"shoe park,shop","website":"http:\/\/vk.com","language":"English"}
+Response headers: {'Date': 'Sat, 10 Sep 2022 09:53:44 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '233', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: API_testing_study_project/tests/test_google_maps_api.py::Test_create_place::test_created_place (call)
+Time: 2022-09-10 14:53:43.203819
+Request method: PUT
+Request URL: https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
+
+Response code: 200
+Response text: {"msg":"Address successfully updated"}
+Response headers: {'Date': 'Sat, 10 Sep 2022 09:53:45 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '38', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: API_testing_study_project/tests/test_google_maps_api.py::Test_create_place::test_created_place (call)
+Time: 2022-09-10 14:53:44.031942
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a1bbf669b9db329ce79aae4bb61ba1a5
+
+Response code: 200
+Response text: {"location":{"latitude":"2222222","longitude":"3333333"},"accuracy":"50","name":"Akmal IUNUSOV","phone_number":"123456","address":"BASHKORTOSTAN","types":"shoe park,shop","website":"http:\/\/vk.com","language":"English"}
+Response headers: {'Date': 'Sat, 10 Sep 2022 09:53:45 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '220', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: API_testing_study_project/tests/test_google_maps_api.py::Test_create_place::test_created_place (call)
+Time: 2022-09-10 14:53:44.750701
+Request method: DELETE
+Request URL: https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+
+Response code: 200
+Response text: {"status":"OK"}
+Response headers: {'Date': 'Sat, 10 Sep 2022 09:53:46 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '15', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: API_testing_study_project/tests/test_google_maps_api.py::Test_create_place::test_created_place (call)
+Time: 2022-09-10 14:53:45.594476
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a1bbf669b9db329ce79aae4bb61ba1a5
+
+Response code: 404
+Response text: {"msg":"Get operation failed, looks like place_id  doesn't exists"}
+Response headers: {'Date': 'Sat, 10 Sep 2022 09:53:47 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '67', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
